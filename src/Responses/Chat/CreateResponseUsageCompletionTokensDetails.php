@@ -25,6 +25,7 @@ final class CreateResponseUsageCompletionTokensDetails
             $attributes['rejected_prediction_tokens'],
         );
     }
+    
 
     /**
      * @return array{audio_tokens?:int, reasoning_tokens:int, accepted_prediction_tokens:int, rejected_prediction_tokens:int}
